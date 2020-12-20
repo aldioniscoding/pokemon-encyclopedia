@@ -1,0 +1,35 @@
+.pagination {
+  width: 100%;
+  display: flex;
+  background: transparent;
+  height: 50px;
+  justify-content: space-between;
+  z-index: 100;
+  position: relative;
+  align-items: center;
+
+  .disabled {
+    pointer-events: none;
+    background: #7387b6 !important;
+  }
+
+  button {
+    background: #3a5ea9;
+    padding: 10px 10px;
+    color: #ffff;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    min-width: 100px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s !important;
+    border-radius: none;
+
+    &:hover {
+      background: #274077;
+      transform: translateY(-2px);
+    }
+  }
+}

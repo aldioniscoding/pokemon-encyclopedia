@@ -1,0 +1,14 @@
+.pokemon-header {
+  outline: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+
+  .pokemon-intro {
+    width: 350px;
+
+    @media screen and (max-width: 390px) {
+      width: 280px;
+    }
+  }
+}

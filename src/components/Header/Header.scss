@@ -1,0 +1,32 @@
+.navigation {
+  width: 100%;
+  display: flex;
+  background: transparent;
+  height: 50px;
+  justify-content: flex-end;
+  z-index: 100;
+  position: relative;
+  align-items: center;
+
+  .nav-item {
+    text-align: center;
+    margin-left: 15px;
+    white-space: nowrap;
+    padding: 10px 10px;
+    color: #3a5ea9;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    min-width: 100px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s !important;
+    border-radius: 5px;
+
+    &:hover {
+      background: #ffcb01;
+      border-radius: 5px;
+      transform: translateY(-2px);
+    }
+  }
+}
